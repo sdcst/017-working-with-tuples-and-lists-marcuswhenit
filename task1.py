@@ -22,6 +22,9 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 
+animals = ("Cat", "Fish", "Dog", "Bear", "Turtle")
+x = input("integer number")
+x = int(x)
+print(f"the animal in that index is {animals[x]}")
 
 
-animals =
